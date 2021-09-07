@@ -63,7 +63,7 @@ with open('data.csv', newline='') as f:
     reader = csv.reader(f)
     file_data = list(reader)
 
-#To remove headers from CSV
+#To remove headers from csv.
 file_data.pop(0)
 
 total_weight = 0
